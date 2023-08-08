@@ -1,0 +1,19 @@
+form {
+    display: flex;
+    flex-direction: column;
+}
+.btn {
+    margin-top: 10px;
+    border: 2px solid #005bc4;
+    background-color: transparent;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #b6b6b6;
+}
+.text, .pass {
+    margin-top: 10px;
+    width: 200px;
+    outline: 0;
+    border: 2px solid #005bc4;
+}

@@ -1,0 +1,10 @@
+#textInput {
+    margin-bottom: 10px;
+    width: 100%;
+    border: 2px solid rgb(0, 91, 196);
+    height: 30px;
+}
+#textInput:focus {
+    border: 2px solid rgb(0, 91, 196);
+    outline: 0;
+}

@@ -1,0 +1,14 @@
+.pos-enter {
+    transform: translateX(1000px);
+}
+.pos-enter-active {
+    transform: translateX(0px);
+    transition: all 350ms ease-in;
+}
+.pos-exit {
+    opacity: 1;
+}
+.pos-exit-active {
+    transform: translateX(-1000px);
+    transition: all 400ms ease-in;
+}
